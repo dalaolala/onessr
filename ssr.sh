@@ -4,4 +4,4 @@ export PATH
 yum install unzip wget #For Centos
 apt install unzip wget #For Debian
 cd
-wget https://github.com/dalaolala/onessr/raw/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
+wget https://raw.githubusercontent.com/dalaolala/onessr/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
