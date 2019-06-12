@@ -1,5 +1,5 @@
 # onessr
 
 ```
-wget http://www.gigsgigscloud.com/cn/downloads/ssr.sh && bash ssr.sh
+wget https://raw.githubusercontent.com/dalaolala/onessr/master/ssr.sh && bash ssr.sh
 ```
