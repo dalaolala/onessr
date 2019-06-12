@@ -4,7 +4,7 @@
 wget https://raw.githubusercontent.com/dalaolala/onessr/master/ssr.sh && bash ssr.sh
 ```
 
-**给指定的iptables端口放行
+**给指定的iptables端口放行**
 
 #vi /etc/sysconfig/iptables#编辑防火墙配置文件，开放3306端口
 
