@@ -28,6 +28,16 @@ systemctl enable iptables.service
 
 
 
+安装docker
+```
+curl -sSL https://get.docker.com/ | sh
+service docker restart
+
+docker stop $(docker ps -a -q) 
+docker rm $(docker ps -a -q)
+docker images
+docker rmi <image id>
+```
 
 docker一键启动ssr
 ```
