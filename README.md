@@ -26,12 +26,15 @@ systemctl enable iptables.service
 ```
 
 
-**docker一键启动ssr**
+
+
+
+docker一键启动ssr
 ```
 docker run -dt --name ss --restart=always -p 6443:6443 mritd/shadowsocks -s "-s 0.0.0.0 -p 6443 -m chacha20-ietf-poly1305 -k test123" 
 
 ```
-**一键BBR加速**
+一键BBR加速
 ```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 chmod +x tcp.sh
